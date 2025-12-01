@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "lxlc",
-         Animation = "cal"
+         Title = "fe hub",
+         Animation = "script by shark"
          },
         Key = {
         KeySystem = false,
@@ -30,13 +30,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Chá»©c NÄƒng"})
+     local Tab1o = MakeTab({Name = "miscellaneous scripts "})
     
     AddButton(Tab1o, {
-     Name = "Min Gaming",
+     Name = "sans",
     Callback = function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAE"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Last%20Breath%20Sans"))()
 
   end
   })
